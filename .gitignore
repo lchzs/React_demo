@@ -1,4 +1,4 @@
 logs/
 results/
-ReactAgent/_pycache__/
-_pycache__/
+ReactAgent/__pycache__/
+__pycache__/
