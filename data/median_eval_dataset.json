@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "category": "Multi-hop (Math)",
+    "question": "How many years longer did Queen Victoria reign compared to King Henry VIII?",
+    "gold_keywords": ["25", "26"],
+    "gold_answer": "Queen Victoria reigned for ~63 years, Henry VIII for ~37 years. The difference is roughly 26 years."
+  },
+  {
+    "id": 2,
+    "category": "Multi-hop (Math)",
+    "question": "Find the birth year of Leonardo da Vinci and Michelangelo. What is the difference between them?",
+    "gold_keywords": ["23"],
+    "gold_answer": "Da Vinci (1452) and Michelangelo (1475) were born 23 years apart."
+  },
+  {
+    "id": 3,
+    "category": "Multi-hop (Geography + Math)",
+    "question": "What is the sum of the height of Mount Everest and Mount Kilimanjaro (in meters)?",
+    "gold_keywords": ["14743", "14,743", "14700"],
+    "gold_answer": "Everest (8848m) + Kilimanjaro (5895m) equals approximately 14,743 meters."
+  },
+  {
+    "id": 4,
+    "category": "Indirect Logic",
+    "question": "Who was the monarch of the UK when the first telephone was patented by Alexander Graham Bell?",
+    "gold_keywords": ["Victoria"],
+    "gold_answer": "Queen Victoria was the monarch when Bell patented the telephone in 1876."
+  },
+  {
+    "id": 5,
+    "category": "Indirect Logic",
+    "question": "What is the capital city of the country where the company 'Samsung' was founded?",
+    "gold_keywords": ["Seoul"],
+    "gold_answer": "Samsung was founded in South Korea, and its capital is Seoul."
+  },
+  {
+    "id": 6,
+    "category": "Multi-hop (Comparison)",
+    "question": "Which movie has a longer runtime: 'Avengers: Endgame' or 'Titanic'?",
+    "gold_keywords": ["Avengers", "Endgame"],
+    "gold_answer": "Titanic is longer. (Check logic: Endgame 3h 1m = 181, Titanic 3h 14m = 194)."
+  },
+  {
+    "id": 7,
+    "category": "History (Comparison)",
+    "question": "Who lived to be older: Pablo Picasso or Salvador Dali?",
+    "gold_keywords": ["Picasso"],
+    "gold_answer": "Pablo Picasso lived to be 91, while Salvador Dali died at 84. Picasso was older."
+  },
+  {
+    "id": 8,
+    "category": "Math + Logic",
+    "question": "If you double the number of legs of a spider and add the number of legs of a bee, what is the total?",
+    "gold_keywords": ["22"],
+    "gold_answer": "Spider (8 legs) * 2 = 16. Bee (6 legs). 16 + 6 = 22."
+  },
+  {
+    "id": 9,
+    "category": "Multi-hop (Chemistry)",
+    "question": "Add the atomic number of Helium to the atomic number of Iron. What element has that resulting atomic number?",
+    "gold_keywords": ["Nickel", "Ni"],
+    "gold_answer": "Helium (2) + Iron (26) = 28. The element with atomic number 28 is Nickel."
+  },
+  {
+    "id": 10,
+    "category": "Geography (Math)",
+    "question": "Calculate the area difference between Australia and Brazil (in million square km, approximate).",
+    "gold_keywords": ["0.8", "0.9", "1.0"],
+    "gold_answer": "Brazil (~8.5m km2) - Australia (~7.7m km2) is about 0.8 million sq km."
+  },
+  {
+    "id": 11,
+    "category": "History (Multi-hop)",
+    "question": "Was the Great Wall of China built before or after the birth of Christ?",
+    "gold_keywords": ["Before"],
+    "gold_answer": "It was started around the 7th century BC, so Before."
+  },
+  {
+    "id": 12,
+    "category": "Literature (Logic)",
+    "question": "Did J.R.R. Tolkien serve in World War I or World War II?",
+    "gold_keywords": ["World War I", "WWI"],
+    "gold_answer": "Tolkien served in World War I."
+  },
+  {
+    "id": 13,
+    "category": "Comparison (Complex)",
+    "question": "Which planet has a longer day: Venus or Jupiter?",
+    "gold_keywords": ["Venus"],
+    "gold_answer": "Venus has an extremely long day (243 Earth days), Jupiter has a very short day (10 hours). Venus is longer."
+  },
+  {
+    "id": 14,
+    "category": "Multi-hop (Logic)",
+    "question": "Was the current King of England born before or after Queen Elizabeth II died?",
+    "gold_keywords": ["Before"],
+    "gold_answer": "King Charles III was born in 1948. Elizabeth II died in 2022. He was born before."
+  },
+  {
+    "id": 15,
+    "category": "Math (Geometry)",
+    "question": "Calculate the perimeter of a square with an area of 64.",
+    "gold_keywords": ["32"],
+    "gold_answer": "Side is sqrt(64)=8. Perimeter is 8*4=32."
+  },
+  {
+    "id": 16,
+    "category": "Logic (Time)",
+    "question": "How many seconds are in one hour?",
+    "gold_keywords": ["3600", "3,600"],
+    "gold_answer": "60 * 60 = 3600."
+  },
+  {
+    "id": 17,
+    "category": "Multi-hop",
+    "question": "What is the currency of the country whose capital is Berlin?",
+    "gold_keywords": ["Euro"],
+    "gold_answer": "Berlin is the capital of Germany. The currency is the Euro."
+  },
+  {
+    "id": 18,
+    "category": "Indirect Search",
+    "question": "Who is the wife of the 44th President of the United States?",
+    "gold_keywords": ["Michelle Obama"],
+    "gold_answer": "44th President is Obama. His wife is Michelle Obama."
+  },
+  {
+    "id": 19,
+    "category": "Math (Dates)",
+    "question": "How many years are there between the US Declaration of Independence and the French Revolution (Start date 1789)?",
+    "gold_keywords": ["13"],
+    "gold_answer": "1789 - 1776 = 13 years."
+  },
+  {
+    "id": 20,
+    "category": "Comparison",
+    "question": "Which is denser: Gold or Lead?",
+    "gold_keywords": ["Gold"],
+    "gold_answer": "Gold (19.32 g/cm3) is denser than Lead (11.34 g/cm3)."
+  },
+  {
+    "id": 21,
+    "category": "Multi-hop",
+    "question": "Who directed the movie in which Heath Ledger played the Joker?",
+    "gold_keywords": ["Christopher Nolan", "Nolan"],
+    "gold_answer": "The movie is The Dark Knight. Directed by Christopher Nolan."
+  },
+  {
+    "id": 22,
+    "category": "Geography",
+    "question": "How many US states border the Pacific Ocean?",
+    "gold_keywords": ["5", "five"],
+    "gold_answer": "California, Oregon, Washington, Alaska, Hawaii. Total 5."
+  },
+  {
+    "id": 23,
+    "category": "Comparison",
+    "question": "Which is larger: The Moon or Pluto?",
+    "gold_keywords": ["Moon"],
+    "gold_answer": "The Moon is significantly larger than Pluto."
+  }
+]

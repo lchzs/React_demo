@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "category": "Time-Sensitive",
+    "question": "Who won the Super Bowl in 2024?",
+    "gold_keywords": ["Chiefs", "Kansas City"],
+    "gold_answer": "The Kansas City Chiefs won Super Bowl LVIII in 2024."
+  },
+  {
+    "id": 2,
+    "category": "Time-Sensitive",
+    "question": "What is the name of the latest iPhone model released as of late 2024?",
+    "gold_keywords": ["16", "iPhone 16"],
+    "gold_answer": "The iPhone 16 series was released in late 2024."
+  },
+  {
+    "id": 3,
+    "category": "Mock Tool (Hotel)",
+    "question": "Find a hotel in Tokyo that costs less than $130 and has a rating higher than 4.0.",
+    "gold_keywords": ["Shinjuku Prince", "120"],
+    "gold_answer": "Using the mock data: Shinjuku Prince Hotel fits the criteria ($120, 4.3 rating)."
+  },
+  {
+    "id": 4,
+    "category": "Time-Sensitive (Logic)",
+    "question": "Who is the current Prime Minister of the UK (as of 2025)?",
+    "gold_keywords": ["Keir Starmer", "Starmer"],
+    "gold_answer": "Keir Starmer became PM in July 2024."
+  },
+  {
+    "id": 5,
+    "category": "Trick Question",
+    "question": "What is the capital of the state of New York? (Hint: It is not NYC)",
+    "gold_keywords": ["Albany"],
+    "gold_answer": "The capital of New York state is Albany."
+  },
+  {
+    "id": 6,
+    "category": "Complex Math",
+    "question": "Calculate the square root of 12345, rounded to the nearest integer.",
+    "gold_keywords": ["111"],
+    "gold_answer": "sqrt(12345) is approx 111.1. Rounded is 111."
+  },
+  {
+    "id": 7,
+    "category": "Time-Sensitive",
+    "question": "Which movie won the Oscar for Best Picture in March 2024?",
+    "gold_keywords": ["Oppenheimer"],
+    "gold_answer": "Oppenheimer won Best Picture in 2024."
+  },
+  {
+    "id": 8,
+    "category": "Mock Tool (Comparison)",
+    "question": "Find the cheapest hotel in Paris from the hotel search tool.",
+    "gold_keywords": ["Budget Inn", "85"],
+    "gold_answer": "Budget Inn Paris is the cheapest at $85."
+  },
+  {
+    "id": 9,
+    "category": "Disambiguation",
+    "question": "Who is the CEO of the company that created ChatGPT?",
+    "gold_keywords": ["Sam Altman", "Altman"],
+    "gold_answer": "The company is OpenAI, and the CEO is Sam Altman."
+  },
+  {
+    "id": 10,
+    "category": "Complex Multi-hop",
+    "question": "What is the currency of the country where the 2016 Summer Olympics were held?",
+    "gold_keywords": ["Real", "BRL"],
+    "gold_answer": "2016 Olympics were in Brazil. The currency is the Brazilian Real."
+  },
+  {
+    "id": 11,
+    "category": "Comparison (Units)",
+    "question": "Which is longer: 50 miles or 100 kilometers?",
+    "gold_keywords": ["100 kilometers is longer", "100 km is longer"],
+    "gold_answer": "50 miles is ~80 km. So 100 kilometers is longer."
+  },
+  {
+    "id": 12,
+    "category": "Logic (No Search)",
+    "question": "If you have 3 apples and you take away 2, how many apples do you have?",
+    "gold_keywords": ["2", "two"],
+    "gold_answer": "You have 2 apples (the ones you took)."
+  },
+  {
+    "id": 13,
+    "category": "Time-Sensitive",
+    "question": "What is the current version of Python (major and minor) released in Oct 2024?",
+    "gold_keywords": ["3.13"],
+    "gold_answer": "Python 3.13 was released in late 2024."
+  },
+  {
+    "id": 14,
+    "category": "Complex Math",
+    "question": "What is 5 to the power of 5?",
+    "gold_keywords": ["3125"],
+    "gold_answer": "3125."
+  },
+  {
+    "id": 15,
+    "category": "Indirect Search",
+    "question": "What is the official language of the country with the largest population in South America?",
+    "gold_keywords": ["Portuguese"],
+    "gold_answer": "Largest country is Brazil. Language is Portuguese."
+  },
+  {
+    "id": 16,
+    "category": "Ambiguous Entity",
+    "question": "How tall is 'The Rock' (the actor)?",
+    "gold_keywords": ["1.96", "6ft 5", "196"],
+    "gold_answer": "Dwayne Johnson is about 1.96m or 6ft 5in."
+  },
+  {
+    "id": 17,
+    "category": "Time-Sensitive (Tech)",
+    "question": "Who owns the social media platform X (formerly Twitter)?",
+    "gold_keywords": ["Elon Musk"],
+    "gold_answer": "Elon Musk owns X."
+  },
+  {
+    "id": 18,
+    "category": "Comparison (Mock vs Real)",
+    "question": "Is the price of 'Le Grand Paris' (from hotel search tool) higher than 300 USD?",
+    "gold_keywords": ["Yes"],
+    "gold_answer": "Le Grand Paris is $320, so Yes."
+  },
+  {
+    "id": 19,
+    "category": "Multi-hop Logic",
+    "question": "Did the release of the first iPad happen before or after the release of the first iPhone?",
+    "gold_keywords": ["After"],
+    "gold_answer": "iPhone (2007), iPad (2010). So After."
+  },
+  {
+    "id": 20,
+    "category": "Complex Calculation",
+    "question": "Calculate the number of seconds in a day multiplied by 7.",
+    "gold_keywords": ["604800", "604,800"],
+    "gold_answer": "86400 * 7 = 604,800."
+  },
+  {
+    "id": 21,
+    "category": "Geography Trick",
+    "question": "Which city is further north: Rome (Italy) or New York City (USA)?",
+    "gold_keywords": ["Rome"],
+    "gold_answer": "Rome (41.9N) is slightly further north than NYC (40.7N)."
+  },
+  {
+    "id": 22,
+    "category": "Time-Sensitive",
+    "question": "Which country joined NATO in 2024?",
+    "gold_keywords": ["Sweden"],
+    "gold_answer": "Sweden joined NATO in March 2024."
+  },
+  {
+    "id": 23,
+    "category": "Logic",
+    "question": "Who is the mother of Prince William?",
+    "gold_keywords": ["Diana"],
+    "gold_answer": "Princess Diana."
+  },
+  {
+    "id": 24,
+    "category": "Comparison",
+    "question": "Which involves higher temperature: Boiling water or baking a cake (standard 180C)?",
+    "gold_keywords": ["Baking", "Cake"],
+    "gold_answer": "Boiling (100C) < Baking (180C). Baking involves higher temperature."
+  },
+  {
+    "id": 25,
+    "category": "Nested Search",
+    "question": "Who is the CEO of the company that produces the Pixel phone?",
+    "gold_keywords": ["Sundar Pichai", "Pichai"],
+    "gold_answer": "Pixel is made by Google (Alphabet). CEO is Sundar Pichai."
+  }
+]

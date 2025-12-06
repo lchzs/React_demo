@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "Math",
+    "question": "Calculate 25 multiplied by 48.",
+    "gold_keywords": ["1200", "1,200"],
+    "gold_answer": "The result of 25 multiplied by 48 is 1,200."
+  },
+  {
+    "id": 2,
+    "category": "Math",
+    "question": "What is the square root of 625?",
+    "gold_keywords": ["25"],
+    "gold_answer": "The square root of 625 is 25."
+  },
+  {
+    "id": 3,
+    "category": "Math",
+    "question": "What is 2 to the power of 10?",
+    "gold_keywords": ["1024", "1,024"],
+    "gold_answer": "2 raised to the power of 10 is 1,024."
+  },
+  {
+    "id": 4,
+    "category": "Math",
+    "question": "If x = 50 and y = 3, what is x multiplied by y plus 15?",
+    "gold_keywords": ["165"],
+    "gold_answer": "x multiplied by y is 150 (50 * 3). Adding 15 results in 165."
+  },
+  {
+    "id": 5,
+    "category": "Scientific Fact",
+    "question": "What is the chemical symbol for Silver?",
+    "gold_keywords": ["Ag"],
+    "gold_answer": "The chemical symbol for Silver is Ag."
+  },
+  {
+    "id": 6,
+    "category": "Scientific Fact",
+    "question": "What is the boiling point of water in degrees Celsius at standard atmospheric pressure?",
+    "gold_keywords": ["100"],
+    "gold_answer": "The boiling point of water at standard atmospheric pressure is 100 degrees Celsius."
+  },
+  {
+    "id": 7,
+    "category": "Scientific Fact",
+    "question": "How many planets are in the Solar System?",
+    "gold_keywords": ["8", "eight"],
+    "gold_answer": "There are 8 planets in the Solar System."
+  },
+  {
+    "id": 8,
+    "category": "History (Simple Search)",
+    "question": "In which year did the Titanic sink?",
+    "gold_keywords": ["1912"],
+    "gold_answer": "The Titanic sank in the year 1912."
+  },
+  {
+    "id": 9,
+    "category": "History (Simple Search)",
+    "question": "Who was the first person to walk on the Moon?",
+    "gold_keywords": ["Neil Armstrong", "Armstrong"],
+    "gold_answer": "The first person to walk on the Moon was Neil Armstrong."
+  },
+  {
+    "id": 10,
+    "category": "History (Simple Search)",
+    "question": "Which empire was ruled by Genghis Khan?",
+    "gold_keywords": ["Mongol"],
+    "gold_answer": "Genghis Khan was the founder and ruler of the Mongol Empire."
+  },
+  {
+    "id": 11,
+    "category": "Literature (Simple Search)",
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "gold_keywords": ["William Shakespeare", "Shakespeare"],
+    "gold_answer": "The play 'Romeo and Juliet' was written by William Shakespeare."
+  },
+  {
+    "id": 12,
+    "category": "Geography (Static)",
+    "question": "What is the capital city of Canada?",
+    "gold_keywords": ["Ottawa"],
+    "gold_answer": "The capital city of Canada is Ottawa."
+  },
+  {
+    "id": 13,
+    "category": "Geography (Static)",
+    "question": "Which continent is the Sahara Desert located in?",
+    "gold_keywords": ["Africa"],
+    "gold_answer": "The Sahara Desert is located on the continent of Africa."
+  },
+  {
+    "id": 14,
+    "category": "Multi-hop (Search + Math)",
+    "question": "In what year was Albert Einstein born? Subtract that year from 2000.",
+    "gold_keywords": ["121"],
+    "gold_answer": "Albert Einstein was born in 1879. Subtracting 1879 from 2000 equals 121."
+  },
+  {
+    "id": 15,
+    "category": "Multi-hop (Search + Math)",
+    "question": "How many strings does a standard violin have? Multiply that number by 25.",
+    "gold_keywords": ["100"],
+    "gold_answer": "A standard violin has 4 strings. Multiplied by 25, the result is 100."
+  },
+  {
+    "id": 16,
+    "category": "Multi-hop (Search + Math)",
+    "question": "Find the atomic number of Oxygen and Carbon. What is their sum?",
+    "gold_keywords": ["14"],
+    "gold_answer": "The atomic number of Oxygen is 8 and Carbon is 6. Their sum is 14."
+  },
+  {
+    "id": 17,
+    "category": "Multi-hop (History + Logic)",
+    "question": "Who was the US President when World War II ended in 1945?",
+    "gold_keywords": ["Harry S. Truman", "Truman"],
+    "gold_answer": "Harry S. Truman was the US President when World War II ended in 1945."
+  },
+  {
+    "id": 18,
+    "category": "Multi-hop (History + Logic)",
+    "question": "Which painter created 'The Starry Night' and what represents his nationality?",
+    "gold_keywords": ["Vincent van Gogh", "Dutch", "Netherlands"],
+    "gold_answer": "Vincent van Gogh created 'The Starry Night'. His nationality was Dutch (from the Netherlands)."
+  },
+  {
+    "id": 19,
+    "category": "Comparison (Static)",
+    "question": "Which element has a higher atomic number: Gold or Silver?",
+    "gold_keywords": ["Gold"],
+    "gold_answer": "Gold has a higher atomic number (79) compared to Silver (47)."
+  },
+  {
+    "id": 20,
+    "category": "Comparison (Static)",
+    "question": "Who was born first: Abraham Lincoln or George Washington?",
+    "gold_keywords": ["George Washington", "Washington"],
+    "gold_answer": "George Washington was born first (in 1732), whereas Abraham Lincoln was born later (in 1809)."
+  },
+  {
+    "id": 21,
+    "category": "Comparison (Static)",
+    "question": "Which planet is larger in diameter: Mars or Earth?",
+    "gold_keywords": ["Earth"],
+    "gold_answer": "Earth is larger in diameter than Mars."
+  },
+  {
+    "id": 22,
+    "category": "Comparison (Logic)",
+    "question": "Which is faster: the speed of sound in air or the speed of light in vacuum?",
+    "gold_keywords": ["Light"],
+    "gold_answer": "The speed of light in a vacuum is significantly faster than the speed of sound in air."
+  },
+  {
+    "id": 23,
+    "category": "Logic",
+    "question": "If a triangle has sides of length 3, 4, and 5, is it a right-angled triangle? (Yes or No)",
+    "gold_keywords": ["Yes"],
+    "gold_answer": "Yes, a triangle with sides 3, 4, and 5 is a right-angled triangle (following the Pythagorean theorem)."
+  },
+  {
+    "id": 24,
+    "category": "Logic (Dates)",
+    "question": "How many days are there in a standard leap year?",
+    "gold_keywords": ["366"],
+    "gold_answer": "There are 366 days in a standard leap year."
+  },
+  {
+    "id": 25,
+    "category": "Tech History (Static)",
+    "question": "Who co-founded Apple alongside Steve Jobs and Ronald Wayne?",
+    "gold_keywords": ["Steve Wozniak", "Wozniak"],
+    "gold_answer": "Steve Wozniak co-founded Apple alongside Steve Jobs and Ronald Wayne."
+  },
+  {
+    "id": 26,
+    "category": "Geography (Static)",
+    "question": "What is the longest river in the world?",
+    "gold_keywords": ["Nile"],
+    "gold_answer": "The Nile is generally considered the longest river in the world (though some sources debate the Amazon, Nile is the standard static answer)."
+  },
+  {
+    "id": 27,
+    "category": "Multi-hop (Search + Math)",
+    "question": "Find the height of the Eiffel Tower (original height in meters, usually cited as 300). Divide it by 10.",
+    "gold_keywords": ["30", "32.4", "33"],
+    "gold_answer": "The original height of the Eiffel Tower is approximately 300 meters. Divided by 10, the result is 30."
+  },
+  {
+    "id": 28,
+    "category": "Comparison (Static)",
+    "question": "Which ocean is the largest by surface area?",
+    "gold_keywords": ["Pacific"],
+    "gold_answer": "The Pacific Ocean is the largest ocean by surface area."
+  },
+  {
+    "id": 29,
+    "category": "Literature (Multi-hop)",
+    "question": "Who wrote 'Pride and Prejudice' and in what century was it published?",
+    "gold_keywords": ["Jane Austen", "19th"],
+    "gold_answer": "Jane Austen wrote 'Pride and Prejudice', and it was published in the 19th century (specifically 1813)."
+  },
+  {
+    "id": 30,
+    "category": "Math",
+    "question": "What is the absolute value of -42?",
+    "gold_keywords": ["42"],
+    "gold_answer": "The absolute value of -42 is 42."
+  }
+]
